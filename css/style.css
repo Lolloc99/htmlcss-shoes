@@ -21,7 +21,6 @@ html {
 .section {
     position: relative;
     text-align: center;
-    width: 100%;
     height: 100vh;
 }
 
@@ -58,6 +57,10 @@ a {
     color: black;
 }
 
+a:hover {
+    color: yellow;
+}
+
 /* SEZIONI */
 /* sezione 1 */
 #sez1 {
@@ -72,5 +75,4 @@ a {
 /* sezione 3 */
 #sez3 {
     background-color: yellow;
-    color: green;
 }
