@@ -35,7 +35,7 @@ html {
 }
 
 /* HEADER */
-header ul {
+nav ul {
     position: fixed;
     top: 1em;
     right: 1em;
@@ -43,18 +43,21 @@ header ul {
     list-style: none;
 }
 
-header li {
+nav li {
     display: inline-block;
-    color: black;
-    background-color: white;
-    padding: 15px;
-    margin: 1em;
-    border-radius: 50%;
 }
 
-a {
+li a {
+    display: inline-block;
     text-decoration: none;
     color: black;
+    background-color: white;
+    width: 3em;
+    height: 3em;
+    margin: 1em;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 3em;
 }
 
 a:hover {
